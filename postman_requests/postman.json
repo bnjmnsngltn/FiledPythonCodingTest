@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "4114d173-c200-4f4b-ade8-64082c1fcfef",
+		"name": "Filed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "bank_pay",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"credit_card_num\": \"5328390827408682\",\r\n    \"card_holder\": \"Ben\",\r\n    \"expiration_date\": \"06-2055\",\r\n    \"amount\": \"22\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5555/bank/pay",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5555",
+					"path": [
+						"bank",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cheap pay",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"credit_card_num\": \"5328390827408682\",\r\n    \"card_holder\": \"Ben\",\r\n    \"expiration_date\": \"06-2077\",\r\n    \"amount\": \"22\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:6666/cheap/pay",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "6666",
+					"path": [
+						"cheap",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "expensive pay",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"credit_card_num\": \"5328390827408682\",\r\n    \"card_holder\": \"Ben\",\r\n    \"expiration_date\": \"06-2055\",\r\n    \"amount\": \"22\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:7777/cheap/pay",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "7777",
+					"path": [
+						"cheap",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "premium pay",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"credit_card_num\": \"5328390827408682\",\r\n    \"card_holder\": \"Ben\",\r\n    \"expiration_date\": \"06-2055\",\r\n    \"amount\": \"22\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8888/cheap/pay",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8888",
+					"path": [
+						"cheap",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment_api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"credit_card_num\": \"5328390827408682\",\r\n    \"card_holder\": \"Ben\",\r\n    \"expiration_date\": \"06-2055\",\r\n    \"amount\": \"5000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:9999/payment/processpayment",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"payment",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
